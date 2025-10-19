@@ -1,0 +1,28 @@
+# Ignore system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignore environment files
+.env
+venv/
+env/
+*.pem
+
+# Ignore docs
+*.md
+API_TEST_GUIDE.md
+COMPLETE_API_GUIDE.md
+START_SERVER.md
+README.md
+
+# Ignore logs
+*.log
+
+# Ignore node or build folders (if any)
+node_modules/
+dist/
+build/
